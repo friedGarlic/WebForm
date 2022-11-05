@@ -1,0 +1,111 @@
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #d3d3d3;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header
+{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* nav bar style */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a
+{
+    display: block;
+    text-decoration: none;
+    color:white;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+li a:hover
+{
+    background-color: #d3d3d3;
+    color:black
+}
+
+.navbar li{
+    float: left;
+}
+.navbar
+{
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+/* nav bar style */
+
+.column-left
+{
+    float: left;
+    width: 70%;
+}
+
+.column-right
+{
+    float:right;
+    width: 30%;
+}
+.card
+{
+    background-color:white;
+    padding: 1px 30px;
+    border-radius: 3px;
+    box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.3);
+    margin: 10px;
+}
+
+.image
+{
+    background-color: #d3d3d3;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.row::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer
+{
+    margin: 0;
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+    padding: 0;
+    border-radius: 5px;
+}
+.footer a
+{
+    color:black;
+}
+
+@media only screen and(min-width:350px)
+{
+    .column-left
+    {
+        width: 100%;
+    }
+}
